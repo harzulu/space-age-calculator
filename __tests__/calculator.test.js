@@ -33,7 +33,7 @@ describe('Calculator', () => {
   });
 
   test('should return the users remaining mercury years', () => {
-    expect(calc.raminingMercury()).toEqual(250);
+    expect(calc.reaminingMercury()).toEqual(250);
   });
 
 });

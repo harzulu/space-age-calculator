@@ -3,6 +3,7 @@ import { parse } from "@babel/core";
 export class Calculator {
   constructor(age) {
     this.age = age;
+    this.yearsLeft;
   }
 
   earthAge() {
@@ -30,7 +31,13 @@ export class Calculator {
   }
 
   remainingYears() {
-    return 79 - this.age;
+    this.yearsLeft = 79 - this.age;
+    return this.yearsLeft;
+  }
+
+  reaminingMercury() {
+    let num = this.yearsLeft / 0.24;
+    return parseFloat(num.toFixed(2));
   }
 
 
