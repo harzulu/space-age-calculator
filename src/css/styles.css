@@ -1,0 +1,18 @@
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  list-style-position: inside;
+}
+
+#ageForm {
+  padding: 70px 0;
+  border: 2px solid black;
+  margin-bottom: 5%;
+}
+
+#outcome {
+  display: none;
+  border: 2px solid black;
+  padding: 15px 15px
+}

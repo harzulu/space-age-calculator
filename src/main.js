@@ -29,6 +29,7 @@ function printToPage(calc) {
 
 $("#ageForm").submit(function(event) {
   event.preventDefault();
+  $("#outcome").show();
   let age = $("#age").val();
   let calc = new Calculator(age);
   printToPage(calc);
