@@ -25,7 +25,7 @@ export class Calculator {
   }
 
   jupiterAge() {
-    let num = this.age / 110.86;
+    let num = this.age / 11.86;
     return parseFloat(num.toFixed(2));
   }
 
