@@ -1,6 +1,6 @@
-class Calculator {
+export class Calculator {
   constructor(age) {
-    this.agg = age;
+    this.age = age;
   }
 
   earthAge() {
