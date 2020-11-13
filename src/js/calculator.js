@@ -50,7 +50,7 @@ export class Calculator {
   }
 
   remainingJupiter() {
-    let num = this.yearsLeft / 111.86;
+    let num = this.yearsLeft / 11.86;
     return parseFloat(num.toFixed(2));
   }
 
