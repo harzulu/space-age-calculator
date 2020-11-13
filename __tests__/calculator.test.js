@@ -41,7 +41,7 @@ describe('Calculator', () => {
   });
 
   test('should return the users remaining mars years', () => {
-    expect(calc.remainingMars()).toEqual(31.92);
+    expect(calc.remainingMars()).toEqual(31.91);
   });
 
 });

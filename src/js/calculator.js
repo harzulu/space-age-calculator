@@ -45,7 +45,7 @@ export class Calculator {
   }
 
   remainingMars() {
-    let num = this.yearsLeft / 11.88;
+    let num = this.yearsLeft / 1.88;
     return parseFloat(num.toFixed(2));
   }
 
