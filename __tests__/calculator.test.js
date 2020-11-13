@@ -20,4 +20,8 @@ describe('Calculator', () => {
     expect(calc.venusAge()).toEqual(30.65);
   });
 
+  test('should return the users age on mars', () => {
+    expect(calc.marsAge()).toEqual(10.10);
+  });
+
 });
