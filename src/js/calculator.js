@@ -19,5 +19,10 @@ export class Calculator {
     return parseFloat(num.toFixed(2));
   }
 
+  marsAge() {
+    let num = this.age / 10.88;
+    return parseFloat(num.toFixed(2));
+  }
+
 
 };
