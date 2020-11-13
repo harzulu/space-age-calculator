@@ -29,5 +29,9 @@ export class Calculator {
     return parseFloat(num.toFixed(2));
   }
 
+  remainingYears() {
+    return 78 - this.age;
+  }
+
 
 };
