@@ -5,7 +5,8 @@ import './css/styles.css';
 import { Calculator } from './js/Calculator';
 
 function printToPage(calc) {
-  console.log(calc.age);
+  let age = calc.earthAge();
+  $("#results").append(`<li>Your Earth age is ${age}.</li>`);
 }
 
 $("#ageForm").submit(function(event) {
