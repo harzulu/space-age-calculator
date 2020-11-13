@@ -7,5 +7,9 @@ export class Calculator {
     return this.age;
   }
 
+  mercuryAge() {
+    return this.age / 200.24;
+  }
+
 
 };
