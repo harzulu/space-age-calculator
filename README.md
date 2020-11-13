@@ -36,6 +36,7 @@ There are no known bugs or issues.
 ## Specs
 
 | *Test* | *Input* | *Output* |
+|:---:| :---: | :---: |
 | Takes user's age in as input (console.log(name) to show javascript got the user's name) | 19 | *console:* '19' |
 | Constructs the Calculator class saving the user's name | 19 | *Calculator class variable 'age'* = 19 |
 | Returns the users age on Mercury | 19 | 79.16 |
