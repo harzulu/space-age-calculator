@@ -44,4 +44,8 @@ describe('Calculator', () => {
     expect(calc.remainingMars()).toEqual(31.91);
   });
 
+  test('should return the users remaining jupiter years', () => {
+    expect(calc.remainingJupiter()).toEqual(5.06);
+  });
+
 });
