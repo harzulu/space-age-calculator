@@ -36,6 +36,17 @@ There are no known bugs or issues.
 ## Specs
 
 | *Test* | *Input* | *Output* |
+| Takes user's age in as input (console.log(name) to show javascript got the user's name) | 19 | *console:* '19' |
+| Constructs the Calculator class saving the user's name | 19 | *Calculator class variable 'age'* = 19 |
+| Returns the users age on Mercury | 19 | 79.16 |
+| Returns the users age on Venus | 19 | 30.64 |
+| Returns the users age on Mars | 19 | 10.10 |
+| Returns the users age on Jupiter | 19 | 1.60 |
+| Checks if users age is above or below 79 years (life expectancy) | 19 | false |
+| Returns remaining years on Mercury | 79.16 | 250.00 |
+| Returns remaining years on Venus | 30.64 | 96.77 |
+| Returns remaining years on Mars | 10.10 | 31.92 |
+| Returns remaining years on Jupiter | 1.60 | 5.06 |
 
 ## Technology Used
 
