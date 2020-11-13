@@ -12,14 +12,20 @@ See your age on all the other planets in the solara system!
 * Open your machine's Terminal or Command line
 * Using the Terminal/Command line, navigate to the location you would like this project
 * Enter the command: `git clone https://github.com/harzulu/space-age-calculator.git`
-* To open the project in your default browser, enter the command: `open index.html`
 
-#### Downloading From GitHub:
+#### Downloading from GitHub:
 * Click the green "code" button to the top right
 * Click "Download ZIP"
 * Open the zip file in your downloads folder
 * Move the folder "space-age-calculator" to your desired location
-* Double click the "index.html" file to open the project in your default browser
+
+#### Opening the Project:
+* **This project uses Node. Make sure your machine has Node installed. Follow the instructions here: `https://nodejs.org/en/` to install Node.**
+* Once you have Node installed, navigate to the folder of this project ("space-age-calculator") through your terminal or command line.
+* Run the command `npm install` to install all the required dependancies and libraries.
+* **To open the project in your default browser:** 
+* Run the command `npm run build`, then navigate to the "dist" folder. 
+* Enter the command: `open index.html`
 
 #### To View Live Project Online:
 The live version is at this link:
