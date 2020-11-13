@@ -15,7 +15,7 @@ export class Calculator {
   }
 
   venusAge() {
-    let num = this.age / 10.62;
+    let num = this.age / 0.62;
     return parseFloat(num.toFixed(2));
   }
 

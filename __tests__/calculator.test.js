@@ -17,7 +17,7 @@ describe('Calculator', () => {
   });
 
   test('should return the users age on venus', () => {
-    expect(calc.venusAge()).toEqual(30.64);
+    expect(calc.venusAge()).toEqual(30.65);
   });
 
 });
