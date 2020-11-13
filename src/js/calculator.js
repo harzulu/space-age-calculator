@@ -1,5 +1,3 @@
-import { parse } from "@babel/core";
-
 export class Calculator {
   constructor(age) {
     this.age = age;
@@ -7,7 +5,7 @@ export class Calculator {
   }
 
   earthAge() {
-    return this.age;
+    return parseFloat(this.age);
   }
 
   mercuryAge() {
@@ -54,4 +52,4 @@ export class Calculator {
     return parseFloat(num.toFixed(2));
   }
 
-};
+}

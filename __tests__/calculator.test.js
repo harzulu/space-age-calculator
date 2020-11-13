@@ -1,4 +1,3 @@
-import { TestScheduler } from 'jest';
 import { Calculator } from './../src/js/Calculator.js';
 
 describe('Calculator', () => {
@@ -26,7 +25,7 @@ describe('Calculator', () => {
 
   test('should return the users age on jupiter', () => {
     expect(calc.jupiterAge()).toEqual(1.60);
-  })
+  });
 
   test('should return the remaining years the user has until 79 (life expectancy)', () => {
     expect(calc.remainingYears()).toEqual(60);
