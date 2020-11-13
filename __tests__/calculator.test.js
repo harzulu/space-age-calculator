@@ -13,7 +13,7 @@ describe('Calculator', () => {
   });
 
   test('should return the users age on mercury', () => {
-    expect(calc.mercuryAge()).toEqual(79.16);
+    expect(calc.mercuryAge()).toEqual(79.17);
   });
 
 });

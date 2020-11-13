@@ -8,7 +8,7 @@ export class Calculator {
   }
 
   mercuryAge() {
-    return this.age / 200.24;
+    return parseFloat((this.age / 0.24).toFixed(2));
   }
 
 
