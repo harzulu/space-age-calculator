@@ -32,7 +32,7 @@ export class Calculator {
     return this.yearsLeft;
   }
 
-  reaminingMercury() {
+  remainingMercury() {
     let num = this.yearsLeft / 0.24;
     return parseFloat(num.toFixed(2));
   }

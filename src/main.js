@@ -6,7 +6,25 @@ import { Calculator } from './js/Calculator';
 
 function printToPage(calc) {
   let age = calc.earthAge();
-  $("#results").append(`<li>Your Earth age is ${age}.</li>`);
+  $("#results").append(`<li>Your Earth age is ${age} years.</li>`);
+  age = calc.mercuryAge();
+  $("#results").append(`<li>Your Mercury age is ${age} years.</li>`);
+  age = calc.venusAge();
+  $("#results").append(`<li>Your Venus age is ${age} years.</li>`);
+  age = calc.marsAge();
+  $("#results").append(`<li>Your Mars age is ${age} years.</li>`);
+  age = calc.jupiterAge();
+  $("#results").append(`<li>Your Jupiter age is ${age} years.</li>`);
+  age = calc.remainingYears();
+  $("#results").append(`<li>The average life expectancy in the US is 79 years old. Which means you have about ${age} many years left to live (statistically...).</li>`);
+  age = calc.remainingMercury();
+  $("#results").append(`<li>You have ${age} Mercury years left to live!</li>`);
+  age = calc.remainingVenus();
+  $("#results").append(`<li>You have ${age} Venus years left to live!</li>`);
+  age = calc.remainingMars();
+  $("#results").append(`<li>You have ${age} Mars years left to live!</li>`);
+  age = calc.remainingJupiter();
+  $("#results").append(`<li>You have ${age} Jupiter years left to live!</li>`);
 }
 
 $("#ageForm").submit(function(event) {
