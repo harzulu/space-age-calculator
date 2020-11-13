@@ -36,8 +36,12 @@ describe('Calculator', () => {
     expect(calc.reaminingMercury()).toEqual(250);
   });
 
-  test('should retunr the users remaining venus years', () => {
+  test('should return the users remaining venus years', () => {
     expect(calc.remainingVenus()).toEqual(96.77);
-  })
+  });
+
+  test('should return the users remaining mars years', () => {
+    expect(calc.remainingMars()).toEqual(31.92);
+  });
 
 });
