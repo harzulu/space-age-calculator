@@ -40,7 +40,7 @@ export class Calculator {
   }
 
   remainingVenus() {
-    let num = this.yearsLeft / 0.52;
+    let num = this.yearsLeft / 0.62;
     return parseFloat(num.toFixed(2));
   }
 

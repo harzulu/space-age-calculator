@@ -37,7 +37,7 @@ describe('Calculator', () => {
   });
 
   test('should retunr the users remaining venus years', () => {
-    expect(calc.remainingVenus()).toEqual(96.78);
+    expect(calc.remainingVenus()).toEqual(96.77);
   })
 
 });
