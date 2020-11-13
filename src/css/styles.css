@@ -3,16 +3,27 @@ body {
   margin-right: 25%;
   text-align: center;
   list-style-position: inside;
+  background-image: url("./../assets/images/space.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron {
+  background-color: white;
+  border: 5px solid black;
 }
 
 #ageForm {
+  background-color: white;
   padding: 70px 0;
-  border: 2px solid black;
+  border: 5px solid black;
   margin-bottom: 5%;
 }
 
 #outcome {
+  background-color: white;
   display: none;
-  border: 2px solid black;
+  border: 5px solid black;
   padding: 15px 15px
 }
