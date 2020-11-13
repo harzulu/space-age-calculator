@@ -1,5 +1,11 @@
 class Calculator {
   constructor(age) {
-    this.age = age;
+    this.agg = age;
   }
+
+  earthAge() {
+    return this.age;
+  }
+
+
 };
