@@ -11,12 +11,14 @@
       <h1>Find Your Age on Other Planets!</h1>
     </div>
     <form id=ageForm>
+      <label for="name">What is your name?</label> <br>
+      <input type="text" id="name">
       <label for="age">Enter your age in years:</label> <br>
       <input type="number" id="age">
       <button type="submit" class="btn btn-outline-success">Submit</button>
     </form>
     <div id="outcome">
-      <h2>Here Are Your Galactic Ages:</h2>
+      <h2><span id="resultName"></span>, Here Are Your Galactic Ages:</h2>
       <ul id="results">
       </ul>
     </div>

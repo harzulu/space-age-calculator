@@ -5,6 +5,7 @@ import './css/styles.css';
 import { Calculator } from './js/Calculator';
 
 function printToPage(calc) {
+  $("#resultName").html(calc.name);
   let age = calc.earthAge();
   $("#results").append(`<li>Your Earth age is ${age} years.</li>`);
   age = calc.mercuryAge();
@@ -31,6 +32,7 @@ $("#ageForm").submit(function(event) {
   event.preventDefault();
   $("#outcome").show();
   let age = $("#age").val();
-  let calc = new Calculator(age);
+  let name = $("#name").val();
+  let calc = new Calculator(age, name);
   printToPage(calc);
 });
