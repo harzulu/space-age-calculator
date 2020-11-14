@@ -49,7 +49,7 @@ describe('Calculator', () => {
 
   test('should return the number of years the user is past the life expectancy', () => {
     let calc = new Calculator(83, "Bob");
-    expect(calc.pastExpect()).toEqual(3);
+    expect(calc.pastExpect()).toEqual(4);
   });
 
 });
