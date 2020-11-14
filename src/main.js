@@ -17,7 +17,7 @@ function printToPage(calc) {
   age = calc.jupiterAge();
   $("#results").append(`<li>Your Jupiter age is ${age} years.</li>`);
   age = calc.remainingYears();
-  
+
   if (age > 0) {
     $("#results").append(`<li>The average life expectancy in the US is 79 years old. Which means you have about ${age} many years left to live (statistically...).</li>`);
     age = calc.remainingMercury();
@@ -30,7 +30,7 @@ function printToPage(calc) {
     $("#results").append(`<li>You have ${age} Jupiter years left to live!</li>`);
   } else {
     age = calc.pastExpect();
-    $("#results").append(`<li>You have lived past your life expectancy! You have lived ${age} years past it! Keep up the good work!`)
+    $("#results").append(`<li>You have lived past your life expectancy! You have lived ${age} years past it! Keep up the good work!`);
   }
 }
 
