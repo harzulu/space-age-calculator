@@ -54,6 +54,7 @@ There are no known bugs or issues.
 | Returns remaining years on Venus | 30.64 | 96.77 |
 | Returns remaining years on Mars | 10.10 | 31.92 |
 | Returns remaining years on Jupiter | 1.60 | 5.06 |
+| Tells the user how far past the life expectancy they are | 82 | *You are 3 years past your life expectancy!* |
 
 ## Technology Used
 
