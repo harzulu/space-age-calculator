@@ -47,4 +47,9 @@ describe('Calculator', () => {
     expect(calc.remainingJupiter()).toEqual(5.06);
   });
 
+  test('should return the number of years the user is past the life expectancy', () => {
+    let calc = new Calculator(83, "Bob");
+    expect(calc.pastExpect()).toEqual(3);
+  });
+
 });
