@@ -1,7 +1,7 @@
 export class Calculator {
   constructor(age, name) {
     this.age = age;
-    this.name = name
+    this.name = name;
     this.yearsLeft = 79 - this.age;
   }
 
