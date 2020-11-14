@@ -64,6 +64,10 @@ There are no known bugs or issues.
 * JavaScript
 * jQuery
 * Bootstrap
+* Node.js
+* Jest
+* Lint
+* Bable
 
 ## Licenseing and Copyright
 
