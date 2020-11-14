@@ -29,7 +29,7 @@ See your age on all the other planets in the solara system!
 
 #### To View Live Project Online:
 The live version is at this link:
-[gh-pages_link]
+https://harzulu.github.io/space-age-calculator/
 
 ## Known Bugs/Issues
 
