@@ -53,4 +53,9 @@ export class Calculator {
     return parseFloat(num.toFixed(2));
   }
 
+  pastExpect() {
+    let num = Math.abs(this.yearsLeft);
+    return num;
+  }
+
 }
